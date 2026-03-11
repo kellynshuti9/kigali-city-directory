@@ -1,0 +1,68 @@
+name: kigali_city_directory
+description: "Kigali City Services & Places Directory"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter_android: ^2.5.3
+
+  # Firebase Core
+  firebase_core: ^2.27.0
+  
+  # Firebase Authentication
+  firebase_auth: ^4.17.8
+  
+  # Realtime Database
+  firebase_database: ^10.4.0
+  
+  # State Management
+  flutter_riverpod: ^2.5.1
+  
+  # Google Maps
+  google_maps_flutter: ^2.5.3
+  
+  # Location Services
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  
+  # URL Launcher
+  url_launcher: ^6.2.5
+  
+  # Image Picker
+  image_picker: ^1.0.7
+  
+  # Date Formatting
+  intl: ^0.18.1
+  
+  # Toast Messages (changed to working version)
+  # fluttertoast: ^8.2.2
+  
+  # Email Validation
+  email_validator: ^2.1.17
+  
+  # Permissions
+  permission_handler: ^11.0.1
+  
+  # UUID
+  uuid: ^4.3.3
+  
+  # Cupertino Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets - create these folders or comment out for now
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
